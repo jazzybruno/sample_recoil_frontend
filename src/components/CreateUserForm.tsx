@@ -13,8 +13,8 @@ const CreateUserForm = () => {
                 autoComplete="off"
                 className="bg-white text-black border-[0.125em] rounded-md border-[#1ec08a] py-3 px-2 text-md w-[80%]"
                 placeholder="Enter your name"
-              />
-            </div>
+              /> 
+            </div> 
   
             {/* Email Input */}
             <div className="flex flex-col w-[100%] space-y-2">
