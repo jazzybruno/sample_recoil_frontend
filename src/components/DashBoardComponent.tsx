@@ -41,7 +41,7 @@ const DashBoardComponent = () => {
                 <h2>Tasks Notificatoins and Updates</h2>
             </div>
             </div>
-        </div>
+        </div> 
      );
 }
  
