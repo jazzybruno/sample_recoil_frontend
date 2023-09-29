@@ -3,6 +3,7 @@ import UserLogin from "./pages/UserLogin";
 import CreateUser from "./pages/CreateUser";
 import { Route , Routes , BrowserRouter } from "react-router-dom";
 import DashBoard from "./pages/DashBaord";
+import Completed from "./pages/Completed";
 
 
 export default function App() {
@@ -13,6 +14,8 @@ export default function App() {
         <Route path="/" element={<UserLogin />} />
         <Route path="/create" element={<CreateUser />} />
         <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/dashboard/completed" element={<Completed />} />
+        
       </Routes>
    </BrowserRouter>
     </div>
