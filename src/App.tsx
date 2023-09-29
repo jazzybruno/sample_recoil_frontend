@@ -4,6 +4,7 @@ import CreateUser from "./pages/CreateUser";
 import { Route , Routes , BrowserRouter } from "react-router-dom";
 import DashBoard from "./pages/DashBaord";
 import Completed from "./pages/Completed";
+import Deleted from "./pages/Deleted";
 
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
         <Route path="/create" element={<CreateUser />} />
         <Route path="/dashboard" element={<DashBoard />} />
         <Route path="/dashboard/completed" element={<Completed />} />
-        
+        <Route path="/dashboard/deleted" element={<Deleted />} />
       </Routes>
    </BrowserRouter>
     </div>
