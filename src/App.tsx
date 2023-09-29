@@ -5,6 +5,7 @@ import { Route , Routes , BrowserRouter } from "react-router-dom";
 import DashBoard from "./pages/DashBaord";
 import Completed from "./pages/Completed";
 import Deleted from "./pages/Deleted";
+import AllTasks from "./pages/AllTasks";
 
 
 export default function App() {
@@ -15,8 +16,9 @@ export default function App() {
         <Route path="/" element={<UserLogin />} />
         <Route path="/create" element={<CreateUser />} />
         <Route path="/dashboard" element={<DashBoard />} />
-        <Route path="/dashboard/completed" element={<Completed />} />
-        <Route path="/dashboard/deleted" element={<Deleted />} />
+        <Route path="/dashboard/tasks/completed" element={<Completed />} />
+        <Route path="/dashboard/tasks/deleted" element={<Deleted />} />
+        <Route path="/dashboard/tasks/all" element={<AllTasks />} />
       </Routes>
    </BrowserRouter>
     </div>
